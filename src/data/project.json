@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Datenshi Games Indonesia Website",
+        "desc": "A modern personal website for Datenshi, featuring responsive design and interactive elements.",
+        "filename": "datenshi-site.csproj",
+        "image": "/projects/datenshi-site.webp",
+        "type": "web",
+        "url": "https://datenshi.pw",
+        "stack": "next,react,tailwind,jquery,figma"
+    },
+    {
+        "title": "Portfolio Website",
+        "desc": "A sleek portfolio site to showcase projects, skills, and contact information.",
+        "filename": "portfolio-site.csproj",
+        "image": "/projects/portfolio-site.webp",
+        "type": "web",
+        "url": "https://retiishia.my.id",
+        "stack": "html,css,js,tailwind"
+    },
+    {
+        "title": "Weather App Site",
+        "desc": "A simple weather application that provides real-time weather updates based on user location.",
+        "filename": "weatherapp-site.csproj",
+        "image": "/projects/weatherapp-site.webp",
+        "type": "web",
+        "url": "https://weatherapp.retiishia.my.id/",
+        "stack": "react,tailwind,vite"
+    },
+    {
+        "title": "Portfolio Website",
+        "desc": "An old portfolio site to showcase projects, skills, and contact information.",
+        "filename": "old-portfolio-site.csproj",
+        "image": "/projects/oldportfolio-site.webp",
+        "type": "web",
+        "url": "https://github.com/Retiishia/Portfolio-NextJS.git",
+        "stack": "next,react,tailwind,jquery"
+    }
+]

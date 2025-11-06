@@ -1,0 +1,73 @@
+[
+	[{ "text": "// Education", "cls": "code-gray" }],
+	[
+		{ "text": "public record ", "cls": "code-pink" },
+		{ "text": "Education ", "cls": "code-blue" },
+		{ "text": "{", "cls": "code-default" }
+	],
+	[
+		{ "text": "\tpublic List ", "cls": "code-pink" },
+		{ "text": "<", "cls": "code-gray" },
+		{ "text": "School", "cls": "code-blue" },
+		{ "text": "> ", "cls": "code-gray" },
+		{ "text": "Schools ", "cls": "code-yellow" },
+		{ "text": "=> ", "cls": "code-gray" },
+		{ "text": "new", "cls": "code-pink" },
+		{ "text": "() ", "cls": "code-gray" },
+		{ "text": "{", "cls": "code-default" }
+	],
+	[{ "text": "\t\t{", "cls": "code-default" }],
+	[
+		{ "text": "\t\t\tLevel", "cls": "code-orange" },
+		{ "text": ": ", "cls": "code-gray" },
+		{ "text": "\"University\"", "cls": "code-green" },
+		{ "text": ",", "cls": "code-gray" }
+	],
+	[
+		{ "text": "\t\t\tName", "cls": "code-orange" },
+		{ "text": ": ", "cls": "code-gray" },
+		{ "text": "\"Universitas Sangga Buana YPKP Bandung\"", "cls": "code-green" },
+		{ "text": ",", "cls": "code-gray" }
+	],
+	[
+		{ "text": "\t\t\tMajor", "cls": "code-orange" },
+		{ "text": ": ", "cls": "code-gray" },
+		{ "text": "\"Informatics Engineering\"", "cls": "code-green" },
+		{ "text": ",", "cls": "code-gray" }
+	],
+	[
+		{ "text": "\t\t\tPeriod", "cls": "code-orange" },
+		{ "text": ": ", "cls": "code-gray" },
+		{ "text": "\"2019 - 2023\"", "cls": "code-green" },
+		{ "text": ",", "cls": "code-gray" }
+	],
+	[{ "text": "\t\t},", "cls": "code-default" }],
+	[{ "text": "\t\t{", "cls": "code-default" }],
+	[
+		{ "text": "\t\t\tLevel", "cls": "code-orange" },
+		{ "text": ": ", "cls": "code-gray" },
+		{ "text": "\"Vocational High School\"", "cls": "code-green" },
+		{ "text": ",", "cls": "code-gray" }
+	],
+	[
+		{ "text": "\t\t\tName", "cls": "code-orange" },
+		{ "text": ": ", "cls": "code-gray" },
+		{ "text": "\"SMK UT PGII Bandung\"", "cls": "code-green" },
+		{ "text": ",", "cls": "code-gray" }
+	],
+	[
+		{ "text": "\t\t\tMajor", "cls": "code-orange" },
+		{ "text": ": ", "cls": "code-gray" },
+		{ "text": "\"Computer and Network Engineering\"", "cls": "code-green" },
+		{ "text": ",", "cls": "code-gray" }
+	],
+	[
+		{ "text": "\t\t\tPeriod", "cls": "code-orange" },
+		{ "text": ": ", "cls": "code-gray" },
+		{ "text": "\"2016 - 2019\"", "cls": "code-green" },
+		{ "text": ",", "cls": "code-gray" }
+	],
+	[{ "text": "\t\t}", "cls": "code-default" }],
+	[{ "text": "\t};", "cls": "code-default" }],
+	[{ "text": "}", "cls": "code-default" }]
+]
