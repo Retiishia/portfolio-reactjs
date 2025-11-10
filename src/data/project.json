@@ -34,5 +34,23 @@
         "type": "web",
         "url": "https://github.com/Retiishia/Portfolio-NextJS.git",
         "stack": "next,react,tailwind,jquery"
+    },
+    {
+        "title": "CatApp Mobile Application",
+        "desc": "CatApp is a mobile application that helps users find criteria-based cat breeds easily.",
+        "filename": "catapp-mobile.csproj",
+        "image": "/projects/catapp-mobile.webp",
+        "type": "college",
+        "url": "https://github.com/Retiishia/CatApp-Kotlin",
+        "stack": "kotlin,gradle,figma,css,bootstrap"
+    },
+    {
+        "title": "Portfolio Website",
+        "desc": "An old portfolio site to showcase projects, skills, and contact information.",
+        "filename": "cempor-site.csproj",
+        "image": "/projects/cempor-site.webp",
+        "type": "college",
+        "url": "https://github.com/Retiishia/spk-rekomendasi-cempor",
+        "stack": "laravel,php,mysql,css,bootstrap"
     }
 ]
