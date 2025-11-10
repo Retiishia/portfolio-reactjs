@@ -54,6 +54,16 @@ export const AboutSection = () => {
 		</pre>
 	);
 
+	const handlePrint = () => {
+  		const printWindow = window.open("/cv.pdf", "_blank");
+  			if (printWindow) {
+   				 printWindow.focus();
+   				 printWindow.onload = () => {
+     			 printWindow.print();
+    			};
+  			}
+		};
+
 	const PdfToolbar = () => (
 		<div className="flex justify-between items-center bg-[#1e2228] border-b border-[#404551] px-4 py-2 text-sm text-[#cfd2d8] sticky top-0 z-10">
 			<div className="flex items-center gap-3">
@@ -70,12 +80,12 @@ export const AboutSection = () => {
 			</div>
 			<div className="flex items-center gap-3">
 				<button
-					onClick={() => window.open("/img/cv.pdf", "_blank")}
+					onClick={() => window.open("/cv.pdf", "_blank")}
 					className="hover:text-white transition">
 					<i className="bi bi-download"></i> Download
 				</button>
 				<button
-					onClick={() => window.print()}
+					onClick={handlePrint}
 					className="hover:text-white transition">
 					<i className="bi bi-printer"></i> Print
 				</button>
