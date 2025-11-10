@@ -45,8 +45,8 @@
         "stack": "kotlin,gradle,figma,css,bootstrap"
     },
     {
-        "title": "Portfolio Website",
-        "desc": "An old portfolio site to showcase projects, skills, and contact information.",
+        "title": "SPK Recommendation System for Cempor",
+        "desc": "A recommendation system for selecting suitable Cempor (traditional Indonesian woven fabric) based on user preferences.",
         "filename": "cempor-site.csproj",
         "image": "/projects/cempor-site.webp",
         "type": "college",
