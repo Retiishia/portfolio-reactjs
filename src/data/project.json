@@ -45,8 +45,8 @@
         "stack": "kotlin,gradle,figma,css,bootstrap"
     },
     {
-        "title": "SPK Recommendation System for Cempor",
-        "desc": "A recommendation system for selecting suitable Cempor (traditional Indonesian woven fabric) based on user preferences.",
+        "title": "SPK Rekomendasi Cempor",
+        "desc": "A decision support system application to recommend cempors based on user-defined criteria.",
         "filename": "cempor-site.csproj",
         "image": "/projects/cempor-site.webp",
         "type": "college",
