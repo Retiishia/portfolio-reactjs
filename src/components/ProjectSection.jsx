@@ -6,11 +6,11 @@ import projectData from "../data/project.json";
 export const ProjectSection = () => {
 	const [activeContent, setActiveContent] = useState("showAll");
 	const [openFolder, setOpenFolder] = useState("projects");
-	const [projects, setProjects] = useState({ web: [], desktop: [], unity: [] });
+	const [projects, setProjects] = useState({ web: [], desktop: [], college: [] });
 
 	useEffect(() => {
 		// Langsung gunakan data import tanpa fetch
-		const categorized = { web: [], desktop: [], unity: [] };
+		const categorized = { web: [], desktop: [], college: [] };
 
 		projectData.forEach((project) => {
 			if (categorized[project.type]) {
@@ -25,7 +25,7 @@ export const ProjectSection = () => {
 		showAll: "show-all.cs",
 		web: "web.cs",
 		desktop: "desktop.cs",
-		unity: "unity.cs",
+		college: "college.cs",
 	};
 
 	const renderProjectList = (list) => (
@@ -54,6 +54,15 @@ export const ProjectSection = () => {
 						</h3>
 						{renderProjectList(projects.web)}
 					</div>
+				); 
+			case "college":
+				return (
+					<div>
+						<h3 className="text-[#5c6370] text-lg md:text-xl mb-4">
+							// College Projects
+						</h3>
+						{renderProjectList(projects.college)}
+					</div>
 				);
 			case "showAll":
 			default:
@@ -64,6 +73,12 @@ export const ProjectSection = () => {
 								// Web Projects
 							</h3>
 							{renderProjectList(projects.web)}
+						</div>
+						<div>
+							<h3 className="text-[#5c6370] text-lg md:text-xl mb-4">
+								// College Projects
+							</h3>
+							{renderProjectList(projects.college)}
 						</div>
 					</div>
 				);
@@ -87,6 +102,10 @@ export const ProjectSection = () => {
 					<AccordionFile
 						label="web.cs"
 						onClick={() => setActiveContent("web")}
+					/>
+					<AccordionFile
+						label="college.cs"
+						onClick={() => setActiveContent("college")}
 					/>
 				</AccordionFolder>
 			</div>
