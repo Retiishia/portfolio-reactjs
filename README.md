@@ -1,22 +1,12 @@
 <h1 align="center">
-  <a href="#"> Portoflio React JS </a>
+  <a href="#"> Portfolio React JS </a>
 </h1>
 
 <h3 align="center">We help you build your project in React!</h3>
 
 <p align="center">
-
-  <img alt="Stars" src="https://img.shields.io/github/stars/evelinsteiger/README-template?style=social">
-  
-  <a href="https://github.com/evelinsteiger/README-template">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/evelinsteiger/README-template">
-  </a>
     
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-
-  <a href="https://github.com/evelinsteiger/">
-    <img alt="made by Evelin Steiger" src="https://img.shields.io/badge/made%20by-Evelin%20Steiger-ff69b4">
-  </a>
 </p>
 
 <h4 align="center"> 
