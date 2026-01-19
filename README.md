@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="#"> PROJECT NAME HERE </a>
+  <a href="#"> Portoflio React JS </a>
 </h1>
 
 <h3 align="center">We help you build your project in React!</h3>
