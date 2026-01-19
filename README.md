@@ -94,7 +94,7 @@ The following tools were used in the construction of the project:
 - **[React Icons](https://react-icons.github.io/react-icons/)**
 - **[Lucide React](https://github.com/lucide-icons/lucide)**
 - **[React PDF](https://github.com/diegomura/react-pdf)**
-- **[Tailwind CSS](hhttps://tailwindcss.com/)**
+- **[Tailwind CSS]([hhttps://tailwindcss.com/](https://github.com/tailwindlabs/tailwindcss))**
 - **[Bootstrap](https://getbootstrap.com/)**
 
 #### [](#)**Utils**
