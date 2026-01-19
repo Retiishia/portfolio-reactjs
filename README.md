@@ -88,13 +88,13 @@ $ yarn start
 
 The following tools were used in the construction of the project:
 
-#### **Platform** ([React](https://reactjs.org/) + 
+#### **Platform** ([React](https://reactjs.org/)
 
 - **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 - **[React Icons](https://react-icons.github.io/react-icons/)**
 - **[Lucide React](https://github.com/lucide-icons/lucide)**
 - **[React PDF](https://github.com/diegomura/react-pdf)**
-- **[Tailwind CSS]([hhttps://tailwindcss.com/](https://github.com/tailwindlabs/tailwindcss))**
+- **[Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)**
 - **[Bootstrap](https://getbootstrap.com/)**
 
 #### [](#)**Utils**
