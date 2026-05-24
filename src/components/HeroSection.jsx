@@ -54,7 +54,7 @@ export const HeroSection = () => {
 
 					{/* Kalau ada di public/img/profile.webp → src="/img/profile.webp" */}
 					<img
-						src="/profile.webp"
+						src="/fubuki.webp"
 						alt="Retiishia Profile"
 						className="object-cover w-full h-full"
 					/>
