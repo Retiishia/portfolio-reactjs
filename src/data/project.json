@@ -52,5 +52,14 @@
         "type": "college",
         "url": "https://github.com/Retiishia/spk-rekomendasi-cempor",
         "stack": "laravel,php,mysql,css,bootstrap"
+    },
+    {
+        "title": "TODO List Web Application",
+        "desc": "A simple TODO list application with a clean and intuitive interface.",
+        "filename": "todo-list-site.csproj",
+        "image": "/projects/todolist.webp",
+        "type": "web",
+        "url": "https://github.com/Retiishia/todo-list-webapp",
+        "stack": "html,css,javascript"
     }
 ]
