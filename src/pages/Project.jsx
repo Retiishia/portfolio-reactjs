@@ -8,7 +8,7 @@ export const Project = () => {
 	}, []);
 
 	return (
-		<section class="flex flex-col md:flex-row grow justify-start items-stretch text-start overflow-auto md:overflow-none">
+		<section className="flex flex-col md:flex-row grow justify-start items-stretch text-start overflow-auto md:overflow-none">
 			<Sidebar />
 			<ProjectSection />
 		</section>

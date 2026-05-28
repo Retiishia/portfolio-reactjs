@@ -50,7 +50,7 @@ export const ProjectSection = () => {
 				return (
 					<div>
 						<h3 className="text-[#5c6370] text-lg md:text-xl mb-4">
-							// Web Projects
+							// Projects
 						</h3>
 						{renderProjectList(projects.web)}
 					</div>
@@ -70,7 +70,7 @@ export const ProjectSection = () => {
 					<div className="space-y-10">
 						<div>
 							<h3 className="text-[#5c6370] text-lg md:text-xl mb-4">
-								// Web Projects
+								// Projects
 							</h3>
 							{renderProjectList(projects.web)}
 						</div>

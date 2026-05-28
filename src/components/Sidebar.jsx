@@ -5,7 +5,7 @@ export const Sidebar = () => {
 				<svg
 					stroke="currentColor"
 					fill="currentColor"
-					stroke-width="0"
+					strokeWidth="0"
 					viewBox="0 0 24 24"
 					className="text-[24px] text-white md:hover:cursor-pointer"
 					height="1em"
@@ -18,7 +18,7 @@ export const Sidebar = () => {
 				<svg
 					stroke="currentColor"
 					fill="currentColor"
-					stroke-width="0"
+					strokeWidth="0"
 					viewBox="0 0 24 24"
 					className="text-[24px] md:hover:cursor-pointer md:hover:text-white transition duration-300"
 					height="1em"

@@ -13,14 +13,14 @@ export const Footer = () => {
 						<a
 							href="https://www.linkedin.com/in/farhanaziiz/"
 							className="md:block py-2 md:px-4 md:border-r border-[#404551] text-[#7c7f85] hover:text-white transition duration-300">
-							<i class="bi bi-linkedin" />
+							<i className="bi bi-linkedin" />
 						</a>
 					</li>
 					<li>
 						<a
 							href="https://www.instagram.com/farhan.aziz98/"
 							className="md:block py-2 px-4 md:border-r border-[#404551] text-[#7c7f85] hover:text-white transition duration-300">
-							<i class="bi bi-instagram" />
+							<i className="bi bi-instagram" />
 						</a>
 					</li>
 				</ul>
@@ -31,7 +31,7 @@ export const Footer = () => {
 						<a
 							href="https://github.com/Retiishia"
 							className="md:block py-2 px-3 md:border-l border-[#404551] text-[#7c7f85] hover:text-white transition duration-300">
-							<i class="bi bi-github" /> @Retiishia
+							<i className="bi bi-github" /> @Retiishia
 						</a>
 					</li>
 				</ul>

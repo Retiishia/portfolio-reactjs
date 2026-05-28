@@ -15,7 +15,7 @@
         "image": "/projects/portfolio-site.webp",
         "type": "web",
         "url": "https://retiishia.my.id",
-        "stack": "html,css,js,tailwind"
+        "stack": "js,react,tailwind"
     },
     {
         "title": "Weather App Site",
