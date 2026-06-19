@@ -6,11 +6,11 @@ import projectData from "../data/project.json";
 export const ProjectSection = () => {
 	const [activeContent, setActiveContent] = useState("showAll");
 	const [openFolder, setOpenFolder] = useState("projects");
-	const [projects, setProjects] = useState({ web: [], desktop: [], college: [] });
+	const [projects, setProjects] = useState({ web: [], jsvanilla: [], college: [] });
 
 	useEffect(() => {
 		// Langsung gunakan data import tanpa fetch
-		const categorized = { web: [], desktop: [], college: [] };
+		const categorized = { web: [], jsvanilla: [], college: [] };
 
 		projectData.forEach((project) => {
 			if (categorized[project.type]) {
@@ -24,7 +24,7 @@ export const ProjectSection = () => {
 	const fileLabels = {
 		showAll: "show-all.cs",
 		web: "web.cs",
-		desktop: "desktop.cs",
+		JSVanilla: "js-vanilla.cs",
 		college: "college.cs",
 	};
 
@@ -55,6 +55,15 @@ export const ProjectSection = () => {
 						{renderProjectList(projects.web)}
 					</div>
 				); 
+			case "jsvanilla":
+				return (
+					<div>
+						<h3 className="text-[#5c6370] text-lg md:text-xl mb-4">
+						   // JavaScript Vanilla Projects
+						</h3>
+						{renderProjectList(projects.jsvanilla)}
+					</div>
+				);
 			case "college":
 				return (
 					<div>
@@ -73,6 +82,12 @@ export const ProjectSection = () => {
 								// Projects
 							</h3>
 							{renderProjectList(projects.web)}
+						</div>
+						<div>
+							<h3 className="text-[#5c6370] text-lg md:text-xl mb-4">
+								// JavaScript Vanilla Projects
+							</h3>
+							{renderProjectList(projects.jsvanilla)}
 						</div>
 						<div>
 							<h3 className="text-[#5c6370] text-lg md:text-xl mb-4">
@@ -103,6 +118,10 @@ export const ProjectSection = () => {
 						label="web.cs"
 						onClick={() => setActiveContent("web")}
 					/>
+						<AccordionFile
+							label="javascript.cs"
+							onClick={() => setActiveContent("jsvanilla")}
+						/>
 					<AccordionFile
 						label="college.cs"
 						onClick={() => setActiveContent("college")}
