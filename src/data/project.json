@@ -61,5 +61,32 @@
         "type": "web",
         "url": "https://github.com/Retiishia/todo-list-webapp",
         "stack": "html,css,javascript"
+    },
+    {
+        "title": "Calculator Web Application",
+        "desc": "A simple calculator web application with JavaScript and a clean and intuitive interface.",
+        "filename": "calculator-site.csproj",
+        "image": "/projects/calculator-site.webp",
+        "type": "web",
+        "url": "https://github.com/Retiishia/CalculatorJS",
+        "stack": "html,css,javascript"
+    },
+    {
+        "title": "Weather App JavaScript Web Application",
+        "desc": "A simple weather web application using JavaScript that provides real-time weather updates based on user location.",
+        "filename": "weatherapp-js.csproj",
+        "image": "/projects/weatherapp-js.webp",
+        "type": "web",
+        "url": "https://github.com/Retiishia/BasicWeatherJS",
+        "stack": "html,css,javascript"
+    },
+    {
+        "title": "Quiz Web Application",
+        "desc": "A simple quiz web application with a clean and intuitive interface.",
+        "filename": "quiz-site.csproj",
+        "image": "/projects/quizapp-js.webp",
+        "type": "web",
+        "url": "https://github.com/Retiishia/QuizAppJS",
+        "stack": "html,css,javascript"  
     }
 ]
