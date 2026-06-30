@@ -93,7 +93,7 @@
         "title": "Expense Tracker Web App",
         "desc": "A simple expense tracking application that helps users manage and monitor their spending with ease, featuring expense categorization and real-time balance updates.",
         "filename": "expense-tracker-site.csproj",
-        "image": "/projects/movies-search-webapp.webp",
+        "image": "/projects/movie-search-webapp.webp",
         "type": "jsvanilla",
         "url": "https://github.com/Retiishia/ExpenseTrackerJS",
         "stack": "html,css,javascript"  
