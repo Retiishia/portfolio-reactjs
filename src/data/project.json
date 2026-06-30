@@ -93,7 +93,7 @@
         "title": "Expense Tracker Web App",
         "desc": "A simple expense tracking application that helps users manage and monitor their spending with ease, featuring expense categorization and real-time balance updates.",
         "filename": "expense-tracker-site.csproj",
-        "image": "/projects/movie-search-webapp.webp",
+        "image": "/projects/expense-tracker-webapp.webp",
         "type": "jsvanilla",
         "url": "https://github.com/Retiishia/ExpenseTrackerJS",
         "stack": "html,css,javascript"  
@@ -102,7 +102,7 @@
         "title": "Movies Search WebApp",
         "desc": "A movie search application that allows users to discover and explore movies with detailed information, ratings, and recommendations through an intuitive search interface.",
         "filename": "movie-search-site.csproj",
-        "image": "/projects/expense-tracker-webapp.webp",
+        "image": "/projects/movie-search-webapp.webp",
         "type": "jsvanilla",
         "url": "https://github.com/Retiishia/MovieSearch-JS",
         "stack": "html,css,javascript"  
